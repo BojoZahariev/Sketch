@@ -1,0 +1,154 @@
+html {
+  text-align: center;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #353b48;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#btn1,
+#btn2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: inline-block;
+  outline: none;
+  width: 200px;
+  height: 80px;
+  background-color: #74b9ff;
+  color: #353b48;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Carter One', cursive;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #EAB543;
+}
+
+#btn1:active,
+#btn2:active {
+  background-color: #0984e3;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.btn-left button {
+  float: left;
+  clear: left;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  outline: none;
+  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.btn-right button {
+  float: right;
+  clear: right;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+  outline: none;
+  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+#btnBlack {
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: black;
+  border: 2px solid #EAB543;
+}
+
+#btnR {
+  border-radius: 50%;
+  background-color: red;
+  border: 2px solid #EAB543;
+}
+
+#btnBlue {
+  margin-top: -110px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid #EAB543;
+}
+
+#btnY {
+  border-radius: 50%;
+  background-color: yellow;
+  border: 2px solid #EAB543;
+}
+
+#btnBlack:hover {
+  background: black radial-gradient(circle, transparent 1%, black 1%) center/15000%;
+}
+
+#btnR:hover {
+  background: red radial-gradient(circle, transparent 1%, red 1%) center/15000%;
+}
+
+#btnBlue:hover {
+  background: blue radial-gradient(circle, transparent 1%, blue 1%) center/15000%;
+}
+
+#btnY:hover {
+  background: yellow radial-gradient(circle, transparent 1%, yellow 1%) center/15000%;
+}
+
+#btnBlack:active {
+  background-color: #353b48;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#btnR:active {
+  background-color: #e84118;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#btnBlue:active {
+  background-color: #00a8ff;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#btnY:active {
+  background-color: #fbc531;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#container {
+  border: 8px solid #EAB543;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  width: 800px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  background: white;
+  border-radius: 1%;
+}
+
+.item {
+  box-sizing: border-box;
+  text-align: center;
+}
