@@ -4,8 +4,6 @@ var w = 800 / cells;
 var items = 1600;
 myFunction(1600);
 var paint = 'black';
-
-//The mouse over change
 container = document.querySelector("#container");
 
 
@@ -16,13 +14,12 @@ function myFunction(items) {
     var item = document.createElement("li");
     item.classList.add('item');
     container.appendChild(item);
-    item.textContent = "";
     item.style.background = "white";
     item.style.width = w + 'px';
     item.style.height = w + 'px';
 
     //Event Listener
-    item.addEventListener("mousemove", function(e) {
+    item.addEventListener("mouseover", function(e) {
       if (e.buttons == 1) {
         this.style.background = paint;
       }
