@@ -19,7 +19,7 @@ function myFunction(items) {
     item.style.height = w + 'px';
 
     //Event Listener
-    item.addEventListener("mouseover", function(e) {
+    item.addEventListener("mousemove", function(e) {
       if (e.buttons == 1) {
         this.style.background = paint;
       }
