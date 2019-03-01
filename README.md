@@ -1,1 +1,1 @@
-DOM manipultaion exercise from The Odin Project.
+DOM manipulation exercise from The Odin Project.
