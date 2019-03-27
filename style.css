@@ -1,15 +1,17 @@
 html {
   text-align: center;
   width: 100%;
-  background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url("https://i.ibb.co/DfnJF5k/painting-2407262-1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #353b48;
+  background-position: center;
 }
 
 .buttons {
   text-align: center;
 }
+
 
 #btn1,
 #btn2 {
@@ -27,7 +29,7 @@ html {
   font-family: 'Carter One', cursive;
   border-radius: 50%;
   cursor: pointer;
-  border: 2px solid #EAB543;
+  border: 2px solid #654321;
 }
 
 #btn1:active,
@@ -37,9 +39,14 @@ html {
   transform: translateY(2px);
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .btn-left button {
-  float: left;
-  clear: left;
   display: block;
   width: 100px;
   height: 100px;
@@ -47,12 +54,10 @@ html {
   outline: none;
   cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
   background-position: center;
-  transition: background 0.8s;
+  transition: background 1s;
 }
 
 .btn-right button {
-  float: right;
-  clear: right;
   display: block;
   width: 100px;
   height: 100px;
@@ -60,34 +65,33 @@ html {
   outline: none;
   cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
   background-position: center;
-  transition: background 0.8s;
+  transition: background 1s;
 }
 
 #btnBlack {
   border-radius: 50%;
-  margin-top: 50px;
-  margin-bottom: 10px;
   background-color: black;
-  border: 2px solid #EAB543;
+  border: 2px solid #654321;
+  margin-bottom: 20px;
 }
 
 #btnR {
   border-radius: 50%;
   background-color: red;
-  border: 2px solid #EAB543;
+  border: 2px solid #654321;
 }
 
 #btnBlue {
-  margin-top: -110px;
   border-radius: 50%;
   background-color: blue;
-  border: 2px solid #EAB543;
+  border: 2px solid #654321;
+  margin-bottom: 20px;
 }
 
 #btnY {
   border-radius: 50%;
   background-color: yellow;
-  border: 2px solid #EAB543;
+  border: 2px solid #654321;
 }
 
 #btnBlack:hover {
@@ -131,7 +135,7 @@ html {
 }
 
 #container {
-  border: 8px solid #EAB543;
+  border: 8px solid #654321;
   padding: 0;
   margin: auto;
   list-style: none;
@@ -152,3 +156,16 @@ html {
   box-sizing: border-box;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    flex-flow: row wrap;
+  }
+  
+  #container {
+    order: 3
+  }
+  
+}
+
+
