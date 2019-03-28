@@ -1,9 +1,10 @@
 html, body {
-  background-image: url("https://i.ibb.co/G78ffL5/fullsize.jpg");
+  background-image: url("https://images.pexels.com/photos/1704120/pexels-photo-1704120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #4b4c4c;
 }
 
 .buttons {
