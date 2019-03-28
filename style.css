@@ -1,11 +1,9 @@
-html {
-  text-align: center;
-  width: 100%;
-  background-image: url("https://i.ibb.co/DfnJF5k/painting-2407262-1920.jpg");
+html, body {
+  background-image: url("https://i.ibb.co/G78ffL5/fullsize.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-color: #353b48;
-  background-position: center;
 }
 
 .buttons {
