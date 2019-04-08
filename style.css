@@ -1,5 +1,13 @@
-html, body {
-  background-image: url("https://images.pexels.com/photos/1704120/pexels-photo-1704120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+body,
+html {
+  margin: 0px;
+  min-height: 100%;
+}
+
+
+
+body {
+  background-image: url(images/antique.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -56,7 +64,7 @@ html, body {
   width: 100px;
   height: 100px;
   outline: none;
-  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  cursor: url(images/paintbrush.png), auto;
   background-position: center;
   transition: background 1s;
 }
@@ -66,7 +74,7 @@ html, body {
   width: 100px;
   height: 100px;
   outline: none;
-  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  cursor: url(images/paintbrush.png), auto;
   background-position: center;
   transition: background 1s;
 }
@@ -140,7 +148,7 @@ html, body {
 #container {
   border: 30px solid transparent;
   padding: 2px;
-  border-image: url("https://i.ibb.co/q7B4B76/frame-1192309-1280.png") 30 stretch;
+  border-image: url(images/frame.png) 30 stretch;
   list-style: none;
   width: 800px;
   display: -webkit-box;
@@ -149,8 +157,9 @@ html, body {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   justify-content: center;
-  cursor: url(https://image.ibb.co/ghdOEe/Brush_clip_art_small.png), auto;
+  cursor: url(images/paintbrush.png), auto;
   background: white;
 }
 
