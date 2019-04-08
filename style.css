@@ -159,7 +159,7 @@ body {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   justify-content: center;
-  cursor: url(images/paintbrush.png), auto;
+  cursor: url(images/brush.png), auto;
   background: white;
 }
 
