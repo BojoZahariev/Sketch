@@ -18,9 +18,9 @@ function myFunction(items) {
 
 		//Event Listener
 		item.addEventListener(
-			'mousemove',
+			'mouseover',
 			function(e) {
-				if (e.buttons !== 1) {
+				if (e.buttons === 1) {
 					this.style.background = paint;
 				}
 				//Opacity change
