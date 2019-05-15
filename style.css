@@ -161,6 +161,10 @@ body {
   justify-content: center;
   cursor: url(images/brush.png), auto;
   background: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
 }
 
 .item {
