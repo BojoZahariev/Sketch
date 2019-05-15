@@ -25,7 +25,7 @@ function myFunction(items) {
 				}
 				//Opacity change
 				let shade = +this.style.opacity;
-				if (shade < 1) {
+				if (shade < 1 && e.buttons === 1) {
 					shade += 0.1;
 				}
 				this.style.opacity = shade;
