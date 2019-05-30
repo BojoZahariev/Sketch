@@ -1,1 +1,1 @@
-DOM manipulation exercise from The Odin Project.
+A small drawing app.
